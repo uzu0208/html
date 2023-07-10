@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>안녕하세요</title>
+</head>
+<body>
+    <!-- 사용자가 데이터 입력태그 -->
+    <form action="target.html">
+        이름:<input type="text" name="username"><br>
+        비번: <input type="password" name="password" id="password"><br>
+        <input type="radio" name="gender" value="남">남
+        <input type="radio" name="gender" value="여" checked>여
+        <input type="checkbox" name="fruit" value="사과">사과
+        <input type="checkbox" name="fruit" value="바나나">바나나
+        <input type="checkbox" name="fruit" value="메론">메론 <br>
+        <input type="color" name="color">색상표 <br>
+        <input type="date" name="date">달력
+        <input type="email" name="m_email">이메일<br>
+        <input type="file" name="m_file"><br>
+        <input type="file" name="m_file" accept="image/*"><br>
+        <input type="file" name="m_file" multiple><br>
+
+        <input type="hidden" name="address" value="seoul">
+        <input type="number" name="count"><br>
+        <input type="number" name="count" min="0" max="5"><br>
+        <input type="number" name="count" step="5"><br>
+        <input type="range" name="m_range"><br>
+        <input type="search" name="m_search"><br>
+
+        <select id="cars" name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+          </select> <br>
+
+          <textarea name="message" rows="10" cols="30">
+            The cat was playing in the garden.
+            </textarea>
+
+        <input type="submit" value="로그인2">
+        <input type="reset">
+    </form>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>안녕하세요</title>
+</head>
+<body>
+    <h1>Payment Form</h1>
+    <hr>
+    <p>Required fields are followed by *</p>
+    <h2>Contact Information</h2>
+    Name : * <input type="text" placeholder="smith"> 
+    <br>
+    <br>
+    <fieldset>
+        <legend>Gender *</legend>
+        <br>
+        Male <input type="radio" name="male" value="Male">
+        Female <input type="radio" name="female" value="Female">
+        Other <input type="radio" name="other" value="Other">
+        <br> <br>
+    </fieldset>
+    <br>
+    Address: <br>
+    <textarea name="textarea" id="textarea" cols="70" rows="6">Enter the address
+    </textarea>
+    <br> <br>
+    Email : * <input type="email" placeholder="smith@gmail.com"><br><br>
+    Pincode : * <input type="text" placeholder="123456"><br><br>
+    <hr>
+    <h1>Payment Information</h1>
+    Card Type : * <select name="select" id="select">
+        <legend></legend>
+        <option value="--Select a Card Type">--Select a Card Type</option>
+        <option value="Rupay">Rupay</option>
+        <option value="Mastercard">Mastercard</option>
+        <option value="Visa">Visa</option>
+    </select><br> <br>
+    Card number : * <input type="text" name="cn" id="cn" placeholder="1111-2222-3333-4444"> <br>
+    <br>Expiration Date : * <input type="date"><br>
+    <br>CVV : * <input type="text"><br>
+    <br><input type="submit" name="submit" id="submit" value="Pay Now">
+</body>
+</html>
